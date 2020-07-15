@@ -8,6 +8,6 @@ namespace ClassLibrary1.ExternalComponents
 {
     public class VacationComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync() => Content("Vacation component");
+        public async Task<IViewComponentResult> InvokeAsync() => View("~/ExternalComponents/Vacation.cshtml");
     }
 }
