@@ -8,6 +8,6 @@ namespace ClassLibrary1.Controllers
     public class ExternalController : Controller
     {
         [HttpGet("external")]
-        public IActionResult Index() => Content("External Controller");
+        public IActionResult Index() => View();
     }
 }
